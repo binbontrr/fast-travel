@@ -10,7 +10,7 @@ The fast travel system you know from the games is simplified in Garry's Mod Add-
 - Entity have 3D2D HUD
 - Ability to see the distance to other stations in the menu
 - Playable on all servers
-
+- Have Config File
   
 
 ## Video
