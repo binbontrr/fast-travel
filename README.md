@@ -1,7 +1,7 @@
 
 # Garry's Mod Basic Fast Travel System
 
-The fast travel system you know from the games is simplified in Garry's Mod Add-on.
+The fast travel system you know from the games is simplified in Garry's Mod, GMOD Addon.
 
 
 ## Features
