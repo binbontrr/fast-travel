@@ -19,14 +19,15 @@ end
 
 local CoolDown = {}
 function ENT:Use( ply )
-    if CoolDown[ply] then 
+    if not (IsValid(ply)) then return end 
+    if CoolDown[ply:SteamID64()] then 
 		if CoolDown[ply] > CurTime() then 
 			ply:ChatPrint("Slow Down!")
 		return 
 		end 
 	end 
 
-	CoolDown[ply] = CurTime() + 0.3
+	CoolDown[ply:SteamID64()] = CurTime() + 0.3
 	net.Start("FastTravel_Client_Derma")
 	net.Send(ply)
 end 
